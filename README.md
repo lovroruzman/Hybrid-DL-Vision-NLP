@@ -24,6 +24,16 @@ Generating descriptive natural language captions for static images using an Enco
     * **Decoder**: **LSTM** with embedding layers for text generation.
 * **Dataset**: Flickr8k.
 * **Key Notebook**: `image_captioning.ipynb`
+### 🖼️ Example Result (Image Captioning)
+
+![Image Captioning Example](./image_captioning_example.png)
+
+**Ground Truth Captions:**
+* A dark brown dog runs behind a yellow dog in the grass.
+* One tan dog running on the grass with a brown dog running close behind.
+* The two dogs, one dark and one light colored, are running outdoors.
+* Two brown dogs are running through a grassy area.
+* Two dogs run over the grass.
 
 ### 3. ❓ Visual Question Answering (VQA)
 A multimodal task where the system answers open-ended questions based on image content.
