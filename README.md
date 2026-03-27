@@ -39,6 +39,13 @@ A multimodal task where the system answers open-ended questions based on image c
 * **Implementation**: Fusing image features (CNN) and question embeddings (LSTM) to classify the most probable answer category.
 * **Key Notebook**: `vqa.ipynb`
 
+Example of the model performing visual reasoning by fusing image features with a natural language query:
+
+![VQA Inference Example](./VQA.jpg)
+
+> [!IMPORTANT]
+> **Performance Note:** The currently trained VQA model demonstrates limited accuracy and generalization compared to the captioning tasks. This section serves primarily as a structural proof-of-concept for multimodal fusion rather than a production-ready reasoning engine.
+
 ---
 
 ## 📂 Repository Structure
