@@ -45,6 +45,8 @@ A multimodal task where the system answers open-ended questions based on image c
 └── README.md                 # Project documentation (this file)
 ```
 
+---
+
 ## 🛠️ Technical Implementation
 
 ### Hardware Acceleration (Apple Silicon)
@@ -54,6 +56,15 @@ The code is optimized for MacBook Air/Pro (M-series) using Metal Performance Sha
 import torch
 device = torch.device("mps") if torch.backends.mps.is_available() else torch.device("cpu")
 ```
+
+### Core Libraries
+torch & torchvision (PyTorch core & pre-trained models)
+
+datasets (Hugging Face datasets for VQA)
+
+PIL & matplotlib (Image processing and visualization)
+
+nltk (Natural language tokenization)
 
 
 
