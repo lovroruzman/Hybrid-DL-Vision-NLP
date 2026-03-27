@@ -43,8 +43,10 @@ Example of the model performing visual reasoning by fusing image features with a
 
 ![VQA Inference Example](./VQA.jpg)
 
+
 > [!IMPORTANT]
 > **Performance Note:** The currently trained VQA model demonstrates limited accuracy and generalization compared to the captioning tasks. This section serves primarily as a structural proof-of-concept for multimodal fusion rather than a production-ready reasoning engine.
+
 
 ---
 
