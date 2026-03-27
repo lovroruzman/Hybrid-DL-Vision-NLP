@@ -1,0 +1,6 @@
+*.pth
+*.pkl
+.DS_Store
+venv/
+UCF11_split/
+UCF11_updated_mpg/
