@@ -1,0 +1,45 @@
+# 🧠 Hybrid Neural Networks: Vision-to-Language Tasks
+
+This repository features a professional deep learning portfolio focused on **Hybrid Neural Network architectures** that bridge the gap between **Computer Vision (CV)** and **Natural Language Processing (NLP)**. The projects are implemented using **PyTorch** and cover three advanced multi-modal tasks.
+
+![PyTorch](https://img.shields.io/badge/Framework-PyTorch-ee4c2c?logo=pytorch)
+![Platform](https://img.shields.io/badge/Platform-macOS%20(MPS)-blue)
+![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
+
+---
+
+## 🚀 Projects Overview
+
+### 1. 🎞️ Action Captioning (Video Analysis)
+A comparative study of temporal feature extraction using the **UCF11 (YouTube Action)** dataset.
+* **Methodology**:
+    * **2D CNN + LSTM**: Sequential processing of video frames.
+    * **3D CNN (C3D)**: Capturing spatial and temporal dynamics simultaneously using 3D kernels.
+* **Key Notebook**: `action_captioning.ipynb`
+
+### 2. 🖼️ Image Captioning
+Generating descriptive natural language captions for static images using an Encoder-Decoder framework.
+* **Architecture**:
+    * **Encoder**: Pre-trained **ResNet** for visual feature extraction.
+    * **Decoder**: **LSTM** with embedding layers for text generation.
+* **Dataset**: Flickr8k.
+* **Key Notebook**: `image_captioning.ipynb`
+
+### 3. ❓ Visual Question Answering (VQA)
+A multimodal task where the system answers open-ended questions based on image content.
+* **Implementation**: Fusing image features (CNN) and question embeddings (LSTM) to classify the most probable answer category.
+* **Key Notebook**: `vqa.ipynb`
+
+---
+
+## 📂 Repository Structure
+
+```text
+.
+├── action_captioning.ipynb    # Video analysis & C3D implementations
+├── image_captioning.ipynb     # Image-to-text generation pipeline
+├── vqa.ipynb                 # Visual Question Answering system
+├── Hibridne Mreže.pptx        # Final theoretical presentation (Slides)
+├── PREZA.docx                # Comprehensive project documentation
+├── .gitignore                # Excludes large .pth and .pkl files
+└── README.md                 # Project documentation (this file)
