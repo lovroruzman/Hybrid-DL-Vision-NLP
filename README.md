@@ -43,3 +43,17 @@ A multimodal task where the system answers open-ended questions based on image c
 ├── PREZA.docx                # Comprehensive project documentation
 ├── .gitignore                # Excludes large .pth and .pkl files
 └── README.md                 # Project documentation (this file)
+```
+
+## 🛠️ Technical Implementation
+
+### Hardware Acceleration (Apple Silicon)
+The code is optimized for MacBook Air/Pro (M-series) using Metal Performance Shaders (MPS) for faster training and inference:
+```python
+# Check for Apple Silicon GPU acceleration
+import torch
+device = torch.device("mps") if torch.backends.mps.is_available() else torch.device("cpu")
+```
+
+
+
