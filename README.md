@@ -17,6 +17,10 @@ A comparative study of temporal feature extraction using the **UCF11 (YouTube Ac
     * **3D CNN (C3D)**: Capturing spatial and temporal dynamics simultaneously using 3D kernels.
 * **Key Notebook**: `action_captioning.ipynb`
 
+Example of the model generating a descriptive caption by analyzing temporal features across video frames:
+
+![Action Captioning Example](./action_captioning.jpg)
+
 ### 2. 🖼️ Image Captioning
 Generating descriptive natural language captions for static images using an Encoder-Decoder framework.
 * **Architecture**:
